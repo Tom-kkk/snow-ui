@@ -5,6 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "pnpm --filter @snow-ui/play dev",
+    "docs:dev": "pnpm --filter @snow-ui/docs dev",
+    "docs:build": "pnpm --filter @snow-ui/docs build",
+    "docs:preview": "pnpm --filter @snow-ui/docs preview",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
